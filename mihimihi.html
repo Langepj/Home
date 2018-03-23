@@ -6,27 +6,60 @@
     <title></title>
     <meta name="virt" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" ="text/css" media="screen" href="page.css">
+    <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
-<body>
+
+
+
+<body >
+    <header>
+
+        <p>Phillip J. Lange</p>
+        <p>Freelance Adventurer</p> 
+        <ul>
+            <li><a  href="" onmouseover='alt(this, "Home")' onmouseout='mainText(this,"Kainga")'  >Kainga  </a></li>
+            <li><a  href="" onmouseover='alt(this, "Introduction")' onmouseout='mainText(this,"Mihimihi")'>Mihimihi</a></li>
+            <li><a  href="" onmouseover='alt(this, "Life")' onmouseout='mainText(this,"Wananga")' >Wananga </a></li>
+            <li><a  href="" onmouseover='alt(this, "Projects")' onmouseout='mainText(this,"Mahi")' >Mahi </a></li>
+        </ul>
+    </header>
     <main>
-        <p>
-            Tēnā koutou katoua,<br> 
+        <p id="mihi">
+            Tēnā koutou katoa,<br><br>  
             Ko Hikurangi te maunga<br> 
-            Taku te Awa<br> 
+            Ko Tawapuku te Awa<br> 
             Ko Ngātokimatawhaorua te waka <br> 
             Ko Nukutawhiti te tangata    <br> 
             Ko Ngapuhi nui tonu iwi<br> 
-            Ngati Mahia te <br> 
-            Ko Ngatimahia te whare na<br> 
+            Ngati Mahia te hapu <br> 
+            Ko Ngatimahia te whare tupuna<br> 
             Ko Te Huruhi te marae<br> 
-            Nō timaru ahau <br> 
+            Nō Timaru ahau <br> 
             E noho ana ahau ki Te Whanga-nui-a-Tara <br> 
-            Ko te whare wānanga o teko o te ika a māui tōku kura <br> 
+            Ko te whare wānanga o te opoko o te ika a māui tōku kura <br> 
             Ko Matthew tōku matua<br> 
-            Ko Teena tōku whāeav<br>
-            Ko Phillip tōku ingoa<br>
+            Ko Teena tōku whāea<br>
+            Ko Phillip tōku ingoa<br><br> 
             Nō reira, tēnā koutou, tēnā tātou katoa.<br>
         </p>
-    </main>    
+    </main> 
+    <footer>
+            <ul class="social">
+                    <li><a rel="github" href="http://github.com/langepj">My code</a></li>
+                    <li><a rel="twitter" href="http://twitter.com/PhillipJLange">@PhillipJLange</a></li>
+                  </ul>
+    </footer>   
 </body>
+
+<script>
+        function mainText(x, t){
+            x.innerHTML = t;
+        }
+        function alt(x, t){
+            x.innerHTML = t;
+        }
+
+</script>
+
 </html>

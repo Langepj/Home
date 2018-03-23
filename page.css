@@ -1,31 +1,105 @@
-header ul {
-    list-style-type: none;
+header p{
+    float: center;
     margin: 0;
     padding: 0;
+    font-size:2rem;
+}
+
+header ul {
+    font-size:1.5rem;
+    list-style-type: none;
     overflow: hidden;
     background-color: #333;
 }
 
 header li {
-    float: left;
+    min-width: 200px;
+    display:inline-block;
 }
 
 header li a {
-    display: block;
+    
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
-
-/* Change the link color to #111 (black) on hover */
-header li a:hover {
-    background-color: #111;
+header li a:hover{
+    background-color: black;
 }
 
-body ul {
+.alt li a{
+    display: none;}
+
+.eng li a:hover{
+    display: none;
+}
+
+.alt li a:hover{
+    display:inline-block;}
+
+
+
+
+body {
+    background-color: green;
+    color: floralwhite;
+    font-family: "Berkshire Swash";
+    text-align: center;
+    margin: 0;
+    padding: 0
+}
+
+main{
+    background-color: floralwhite;
+    color: green;
+}
+#mihi{
+
+    font-size: 1.5rem;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    text-align: center;
 }
+
+.social {
+    list-style: none;
+    margin: 1rem auto 0;
+    padding: 0;
+    width: 15rem;
+    max-width: 80%;
+  }
+  
+  .social li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social li a {
+    display: block;
+    position: relative;
+    padding-left: 3rem;
+    line-height: 2rem;
+    vertical-align: middle;
+    color: floralwhite;
+    transition: color 0.2s ease;
+  }
+  
+  .social li a:hover {
+    color: #555;
+  }
+  
+  .social li a::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1em;
+    height: 1em;
+    font: normal 2rem/1em "FontAwesome";
+  }
+  
+  .social li a[rel="github"]::before { content: '\f09b'; }
+  .social li a[rel="home"]::before { content: '\f015'; }
+  .social li a[rel="twitter"]::before { content: '\f099'; }
