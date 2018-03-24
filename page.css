@@ -1,3 +1,12 @@
+body {
+    background-color: green;
+    color: floralwhite;
+    font-family: "Berkshire Swash";
+    text-align: center;
+    margin: 0;
+    padding: 0
+}
+
 header p{
     float: center;
     margin: 0;
@@ -24,45 +33,26 @@ header li a {
     padding: 14px 16px;
     text-decoration: none;
 }
-header li a:hover{
-    background-color: black;
-}
 
-.alt li a{
-    display: none;}
-
-.eng li a:hover{
-    display: none;
-}
-
-.alt li a:hover{
-    display:inline-block;}
-
-
-
-
-body {
-    background-color: green;
-    color: floralwhite;
-    font-family: "Berkshire Swash";
-    text-align: center;
-    margin: 0;
-    padding: 0
+.active {
+    color: green;
 }
 
 main{
     background-color: floralwhite;
-    color: green;
-}
-#mihi{
-
+    color: #555;
     font-size: 1.5rem;
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 2rem 0 4rem;
     overflow: hidden;
     text-align: center;
 }
+main p {
+    width: 30rem;
+    max-width: 80%;
+    margin: 0 auto 1rem;
+  }
 
 .social {
     list-style: none;

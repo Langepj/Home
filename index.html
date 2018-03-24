@@ -1,20 +1,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <meta charset="utf-8">
+    <meta hequiv="X-UA-Ctible" content="IE=edge">
+    <title>Phillip Lange - Mihimihi</title>
+    <meta name="virt" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" ="text/css" media="screen" href="page.css">
+    <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
-<body>
+
+
+
+<body >
+    <header>
+
+        <p>Phillip J. Lange</p>
+        <p>Freelance Adventurer</p> 
+        <ul>
+            <li><a  href="index.html" onmouseover='alt(this, "Home")' onmouseout='mainText(this,"Kainga")' > Kainga  </a></li>
+            <li><a class="active" href="mihimihi.html" onmouseover='alt(this, "Introduction")' onmouseout='mainText(this,"Mihimihi")'>Mihimihi</a></li>
+            <li><a  href="" onmouseover='alt(this, "Life")' onmouseout='mainText(this,"Mauri")' > Mauri </a></li>
+            <li><a  href="" onmouseover='alt(this, "Study")' onmouseout='mainText(this,"Wananga")' >Wananga </a></li>
+            <li><a  href="" onmouseover='alt(this, "Projects")' onmouseout='mainText(this,"Mahi")' >Mahi </a></li>
+        </ul>
+    </header>
     <main>
-
-        
-    </main>
-
-
-    
+        <p id="mihi">
+            Info goes here.
+        </p>
+    </main> 
+    <footer>
+            <ul class="social">
+                    <li><a rel="github" href="http://github.com/langepj">My code</a></li>
+                    <li><a rel="twitter" href="http://twitter.com/PhillipJLange">@PhillipJLange</a></li>
+                  </ul>
+    </footer>   
 </body>
+
+<script>
+        function mainText(x, t){
+            x.innerHTML = t;
+        }
+        function alt(x, t){
+            x.innerHTML = t;
+        }
+
+</script>
+
 </html>
