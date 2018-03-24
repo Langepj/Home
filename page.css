@@ -113,3 +113,5 @@ main p {
   .social li a[rel="github"]::before { content: '\f09b'; }
   .social li a[rel="home"]::before { content: '\f015'; }
   .social li a[rel="twitter"]::before { content: '\f099'; }
+  .social li a[rel="mail"]::before { content: '\f0e0'; }
+  
