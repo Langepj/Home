@@ -39,6 +39,7 @@ header li a {
 }
 
 main{
+    font-family: Arial, Helvetica, sans-serif;
     background-color: floralwhite;
     color: #555;
     font-size: 1.5rem;
@@ -46,13 +47,32 @@ main{
     margin: 0;
     padding: 2rem 0 4rem;
     overflow: hidden;
-    text-align: center;
+    text-align: justified;
 }
+
+#mihi{
+        font-family: "Berkshire Swash";
+    }
+
+    main img {
+        display: block;
+        width: 12rem;
+        max-width: 50%;
+        margin: 0 auto 1rem;
+        height: auto;
+        border-radius: 50%;
+      }
+      
 main p {
-    width: 30rem;
-    max-width: 80%;
+    width: 40rem;
+    max-width: 90%;
     margin: 0 auto 1rem;
   }
+
+  main ul {
+    list-style-type: none;
+    overflow: hidden;
+}
 
 .social {
     list-style: none;
